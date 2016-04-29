@@ -1,0 +1,10 @@
+version: "2"
+services:
+  shellgei:
+    build: .
+    image: hisaharu/shellgei
+    container_name: shellgei
+    environment:
+      - SSHKEY
+    ports:
+      - "2222:22"
