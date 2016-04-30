@@ -106,6 +106,18 @@ RUN : \
 
 ---
 
+## 起動のしかた
+
+* Arukasにログインする
+* アプリ追加
+  * Image: `hisaharu/shellgei`
+  * Port: `22` / `tcp`
+  * ENV
+    * Variable: `SSHKEY`
+    * Value: 自分のSSH公開鍵
+
+---
+
 ## やってみる
 
 Demo
@@ -124,7 +136,7 @@ Demo
 
 ---
 
-## 
+## Slideckのつかいかた
 
 ```
 ## いまだによくある光景
