@@ -154,8 +154,8 @@ Demo
 
 ## 参考資料
 
-* [このスライド](http://slideck.io/github.com/hisaharu/shellgei/slide.md)
-* [このスライドのソース](https://github.com/hisaharu/shellgei/blob/master/slide.md)
+* [このスライド](http://slideck.io/github.com/hisaharu/shellgei/slides/shellgei22LT.md)
+* [このスライドのソース](https://github.com/hisaharu/shellgei/blob/master/slides/shellgei22LT.md)
 * [シェル芸練習用Dockerイメージ](https://hub.docker.com/r/hisaharu/shellgei)
 * [Dockerfile](https://github.com/hisaharu/shellgei/blob/master/Dockerfile)
 * [Slideck](https://slideck.io/)
