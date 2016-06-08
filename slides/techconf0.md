@@ -304,6 +304,8 @@ grep Sun                  #日曜日を表す行だけを抽出
 
 ●  Twitter の #シェル芸
 
+●  [hackmd](https://hackmd.paas.jp-e1.cloudn-service.com/JwQwbAHA7MBGsFoKwCYGMEBYDMZGxEwFYsVYBTbcgJhQhUwEYg==)
+
 でツイートして下さい
 
 ※シェル芸で解ける保証はありませんが、
