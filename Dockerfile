@@ -4,7 +4,7 @@ WORKDIR /root
 EXPOSE 22
 CMD /sshd.sh
 ADD sshd.sh /sshd.sh
-ENV PATH ${PATH}:${HOME}/.cabal/bin
+ENV PATH ${PATH}:/root/.cabal/bin:/root/.egison/bin
 RUN : \
  && apt-get update \
  && apt-get install -y --no-install-recommends \
@@ -21,7 +21,7 @@ RUN : \
  && ( cd Open-usp-Tukubai \
       && make install \
     ) \
- && cabal update
+ && cabal update \
  && cabal install egison egison-tutorial \
  && ( cd egzact \
       && make install \
