@@ -1,6 +1,8 @@
 # shellgei
 シェル芸用Dockerイメージ
 
+[![](https://images.microbadger.com/badges/image/hisaharu/shellgei.svg)](http://microbadger.com/images/hisaharu/shellgei)
+
 ## スライド集
 
 - [LT@第22回シェル芸勉強会](http://slideck.io/github.com/hisaharu/shellgei/slides/shellgei22LT.md)
