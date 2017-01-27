@@ -1,0 +1,11 @@
+version: "2"
+services:
+  revealjs:
+    image: hisaharu/reveal.js
+    ports:
+      - 8000:8000
+    volumes:
+      - ./index.html:/reveal.js/index.html:ro
+      - ./lib/md:/reveal.js/lib/md:ro
+      - ./images:/reveal.js/images:ro
+
