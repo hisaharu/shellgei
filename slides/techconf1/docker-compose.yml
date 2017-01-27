@@ -1,6 +1,6 @@
 version: "2"
 services:
-  doya:
+  revealjs:
     image: hisaharu/reveal.js
     ports:
       - 8000:8000
